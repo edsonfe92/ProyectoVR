@@ -18,7 +18,11 @@ public class Cuttable : MonoBehaviour
 
     public void Cut() 
     {
-        ingridientParts[ingridientParts.Count - 1].SetParent(goParent);
+        var lastIngridient = ingridientParts[ingridientParts.Count - 1];
+        lastIngridient.gameObject.GetComponent<SphereCollider>().enabled = true;
+        lastIngridient.gameObject.AddComponent<Rigidbody>();
+        lastIngridient.SetParent(goParent);
         ingridientParts.RemoveAt(ingridientParts.Count - 1);
+
     }
 }
