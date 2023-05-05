@@ -11944,7 +11944,8 @@ PrefabInstance:
       propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8099954882937582283, guid: 0597a66b47d17c84b97ca2d3b41337f4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0597a66b47d17c84b97ca2d3b41337f4, type: 3}
 --- !u!33 &8111601797014347554
 MeshFilter:
