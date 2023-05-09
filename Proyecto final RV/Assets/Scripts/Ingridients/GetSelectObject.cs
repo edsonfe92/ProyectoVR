@@ -4,13 +4,7 @@ using UnityEngine;
 public class GetSelectObject : MonoBehaviour
 {
     public GameObject objetoInteractuado;
-    private XRSocketInteractor socket;
-    
-
-    private void Start()
-    {
-        socket = GetComponent<XRSocketInteractor>();                
-    }
+    public XRSocketInteractor socket;   
    
     public void CheckSocket() 
     {

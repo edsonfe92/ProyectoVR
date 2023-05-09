@@ -36,11 +36,7 @@ public class GameManager : MonoBehaviour
 
     public bool CompararPedido(GameObject plato, Dish pedidoActual) 
     {
-        List<string> listaIngredientesPlato = new List<string>();
-        for (int i = 0; i < plato.transform.childCount-1; i++)
-        {
-            listaIngredientesPlato.Add(plato.transform.GetChild(i).tag);
-        }
+        var listaIngredientesPlato = plato.GetComponent<MontarHamburguesa>().ingredientesHamburguesa;
         HashSet<string> hashSet1 = new HashSet<string>(listaIngredientesPlato);
         HashSet<string> hashSet2 = new HashSet<string>(pedidoActual.listaIngredientes);
 
