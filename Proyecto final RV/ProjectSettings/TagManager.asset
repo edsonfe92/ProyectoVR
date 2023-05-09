@@ -10,6 +10,7 @@ TagManager:
   - Lechuga
   - CarneCocinada
   - PanAbajo
+  - Plato
   layers:
   - Default
   - TransparentFX

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5897707114812603537}
   - component: {fileID: 505978708774891472}
   - component: {fileID: 2699368615090600532}
+  - component: {fileID: 7127401610963498636}
   m_Layer: 0
   m_Name: HamburguesaBase
   m_TagString: PanAbajo
@@ -207,7 +208,20 @@ MonoBehaviour:
   - {fileID: 5897707114963094180}
   - {fileID: 5897707115974475801}
   - {fileID: 5897707115489580134}
-  ingredientesHamburguesa: []
+  listaIngredientes: []
+  listaObj: {fileID: 7127401610963498636}
+--- !u!114 &7127401610963498636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2699368615090600528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc50c758eae274419cf9a32879ab8f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5897707114963094176
 GameObject:
   m_ObjectHideFlags: 0

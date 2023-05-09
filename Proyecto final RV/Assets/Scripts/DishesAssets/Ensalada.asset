@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Ensalada
   m_EditorClassIdentifier: 
   listaIngredientes:
-  - TrozosTomate
-  - TrozosLechuga
+  - Lechuga
+  - RodajaTomate
+  - RodajaTomate
   nombre: Ensalada

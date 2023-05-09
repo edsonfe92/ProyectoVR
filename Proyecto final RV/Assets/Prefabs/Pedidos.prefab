@@ -44,7 +44,6 @@ GameObject:
   - component: {fileID: 8099954882937582281}
   - component: {fileID: 8099954882937582280}
   - component: {fileID: 8099954882937582327}
-  - component: {fileID: 8099954882937582283}
   m_Layer: 0
   m_Name: Pedidos
   m_TagString: Untagged
@@ -163,9 +162,9 @@ MonoBehaviour:
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8099954882937582283}
-        m_TargetAssemblyTypeName: GetSelectObject, Assembly-CSharp
-        m_MethodName: CheckSocket
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: ComprobarPedido
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -178,9 +177,9 @@ MonoBehaviour:
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8099954882937582283}
-        m_TargetAssemblyTypeName: GetSelectObject, Assembly-CSharp
-        m_MethodName: ResetCheck
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: ResetZonaEnvio
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -210,16 +209,3 @@ MonoBehaviour:
   m_SocketActive: 1
   m_InteractableHoverScale: 1
   m_RecycleDelayTime: 1
---- !u!114 &8099954882937582283
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8099954882937582325}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12e83c9ef6da2f24db45ff48c9bc2e10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objetoInteractuado: {fileID: 0}
