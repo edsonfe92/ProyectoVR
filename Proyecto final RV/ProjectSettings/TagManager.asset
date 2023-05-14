@@ -11,6 +11,9 @@ TagManager:
   - CarneCocinada
   - PanAbajo
   - Plato
+  - CarneCruda
+  - PizzaCruda
+  - PizzaCocinada
   layers:
   - Default
   - TransparentFX
