@@ -6,30 +6,55 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] private Transform pivotePedidos;
+    [SerializeField] private MeshRenderer pedidoRenderer;
+    [SerializeField] private Dictionary<string, Material> materialesDiccionario= new Dictionary<string, Material>();
+    [SerializeField] private List<Material> materialesPedidos;
 
     [SerializeField] private XRSocketInteractor socketPedido;    
 
     [SerializeField] private GameObject platoEnviado;
-    [SerializeField] private Dish pedidoActual;
+    [SerializeField] private List<Dish> pedidosPosibles;
+    [SerializeField] private Dish pedidoActual;    
+
+    public float tiempoRestante = 10.0f;
 
     public int puntuacion = 0;
 
 
     private void Start()
     {
-        //var pedido = Instantiate(listaPedidos[0],pivotePedidos);
-
-
+        materialesDiccionario.Add("Pizza", materialesPedidos[0]);
+        materialesDiccionario.Add("Hamburguesa", materialesPedidos[1]);
+        materialesDiccionario.Add("Ensalada", materialesPedidos[2]);
+        StartCoroutine(CuentaAtras());
+        
     }
 
+    IEnumerator CuentaAtras()
+    {
+        while (tiempoRestante > 0)
+        {
+            yield return new WaitForSeconds(1);
+            tiempoRestante--;
+        }
+
+        pedidoActual = pedidosPosibles[Random.Range(0, 3)];
+        ActualizarPedidoRender();
+        tiempoRestante = 60.0f;
+        StartCoroutine(CuentaAtras());
+    }
+
+    public void ActualizarPedidoRender() 
+    {
+        pedidoRenderer.material = materialesDiccionario[pedidoActual.name];
+    }
     public void ComprobarPedido()
     {        
         platoEnviado = GetObjectInSocket(GetObjectInSocket(socketPedido).GetComponent<XRSocketInteractor>());        
 
         if (CompararPedido(platoEnviado, pedidoActual))
         {
-            puntuacion += 10;
+            puntuacion += 1;
         }
 
     }

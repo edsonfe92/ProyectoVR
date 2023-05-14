@@ -31,7 +31,7 @@ public class Horno : MonoBehaviour
             if (tiempoRestante == 0)
             {
                 pizzaCruda.tag = tagNueva;
-                pizzaCruda.transform.GetChild(0).gameObject.GetComponent<MeshRenderer>().material = materialNuevo;
+                pizzaCruda.GetComponent<MeshRenderer>().material = materialNuevo;
             }
         }
 

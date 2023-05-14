@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8274133419916619345, guid: 57b54a3e24596104eb8a4a316690012f, type: 3}
+  - {fileID: 2100000, guid: 1caffaff89042f844a70004c5db759f6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -110,8 +110,8 @@ GameObject:
   - component: {fileID: 3034294495838555388}
   - component: {fileID: 8991084191427043261}
   m_Layer: 0
-  m_Name: CarneCocinada
-  m_TagString: CarneCocinada
+  m_Name: CarneCruda
+  m_TagString: CarneCruda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

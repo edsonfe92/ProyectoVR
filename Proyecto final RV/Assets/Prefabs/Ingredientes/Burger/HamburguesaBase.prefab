@@ -74,7 +74,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 256
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_CustomReticle: {fileID: 0}
@@ -208,7 +208,6 @@ MonoBehaviour:
   - {fileID: 5897707114963094180}
   - {fileID: 5897707115974475801}
   - {fileID: 5897707115489580134}
-  listaIngredientes: []
   listaObj: {fileID: 7127401610963498636}
 --- !u!114 &7127401610963498636
 MonoBehaviour:
@@ -222,6 +221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bc50c758eae274419cf9a32879ab8f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  listaIngredientes: []
 --- !u!1 &5897707114963094176
 GameObject:
   m_ObjectHideFlags: 0
