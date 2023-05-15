@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Cuttable
+  - PanArriba
+  - RodajaTomate
+  - Lechuga
+  - CarneCocinada
+  - PanAbajo
+  - Plato
+  - CarneCruda
+  - PizzaCruda
+  - PizzaCocinada
   layers:
   - Default
   - TransparentFX

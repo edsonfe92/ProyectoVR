@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LayerNames:
   - Default
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - lantern
+  - carneCocinada
+  - lechuga
+  - rodajaTomate
+  - panArriba
+  - peperoni
+  - pizza
+  - panAbajo
   - 
   - 
   - 

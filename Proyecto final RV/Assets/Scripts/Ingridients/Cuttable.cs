@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class Cuttable : MonoBehaviour
 {
     [SerializeField] private List<Transform> ingridientParts;
+    public GameObject ingredienteCortado;
     Transform goParent;
 
     private void Awake()
@@ -16,9 +18,12 @@ public class Cuttable : MonoBehaviour
         }
     }
 
-    public void Cut() 
+    public void Cut(Vector3 posCorte) 
     {
-        ingridientParts[ingridientParts.Count - 1].SetParent(goParent);
+        var lastIngridient = ingridientParts[ingridientParts.Count - 1];
+        lastIngridient.gameObject.SetActive(false);
+        Instantiate(ingredienteCortado,posCorte,new Quaternion(0,0,0,0));
         ingridientParts.RemoveAt(ingridientParts.Count - 1);
+
     }
 }
