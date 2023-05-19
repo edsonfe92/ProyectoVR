@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3322228652379842114}
   - component: {fileID: 6535890126421844096}
   - component: {fileID: 894352495052698561}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PanArriba
   m_TagString: PanArriba
   m_Icon: {fileID: 0}
@@ -197,7 +197,7 @@ GameObject:
   - component: {fileID: 6535890125396134618}
   - component: {fileID: 6535890125396134619}
   - component: {fileID: 6535890125396134616}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MeshPanArriba
   m_TagString: Untagged
   m_Icon: {fileID: 0}
