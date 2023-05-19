@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5877065378017164032}
   - component: {fileID: 7998321661375766704}
   - component: {fileID: 7998321661375766707}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cabbage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109,7 +109,7 @@ GameObject:
   - component: {fileID: 2614643197179122682}
   - component: {fileID: 2385874406989828362}
   - component: {fileID: 7714333226094176679}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cabbage.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -206,7 +206,7 @@ GameObject:
   - component: {fileID: 5413039830195922198}
   - component: {fileID: 6847943639720861059}
   - component: {fileID: 5413039830195922193}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cabbage.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -303,7 +303,7 @@ GameObject:
   - component: {fileID: 4388746576117628360}
   - component: {fileID: 3528877250554257476}
   - component: {fileID: 3124501474562559774}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cabbage.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -400,7 +400,7 @@ GameObject:
   - component: {fileID: 7674095312573439992}
   - component: {fileID: 7674095312573439993}
   - component: {fileID: 7674095312573439998}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: lechugaEntera
   m_TagString: Cuttable
   m_Icon: {fileID: 0}
@@ -604,7 +604,7 @@ GameObject:
   - component: {fileID: 4997674520102975474}
   - component: {fileID: 7165574629197312629}
   - component: {fileID: 7716862135222300787}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cabbage.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3034294497826004233}
   - component: {fileID: 3034294497826004230}
   - component: {fileID: 3034294497826004232}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MeshCarne
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109,7 +109,7 @@ GameObject:
   - component: {fileID: 6824416812487379518}
   - component: {fileID: 3034294495838555388}
   - component: {fileID: 8991084191427043261}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CarneCruda
   m_TagString: CarneCruda
   m_Icon: {fileID: 0}

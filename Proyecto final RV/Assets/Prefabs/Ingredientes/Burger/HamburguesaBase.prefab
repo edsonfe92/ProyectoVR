@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 505978708774891472}
   - component: {fileID: 2699368615090600532}
   - component: {fileID: 7127401610963498636}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HamburguesaBase
   m_TagString: PanAbajo
   m_Icon: {fileID: 0}
@@ -234,7 +234,7 @@ GameObject:
   - component: {fileID: 5897707114963094178}
   - component: {fileID: 5897707114963094180}
   - component: {fileID: 5897707114963094181}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: AttatchLechuga
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -374,7 +374,7 @@ GameObject:
   - component: {fileID: 5897707115489580132}
   - component: {fileID: 5897707115489580134}
   - component: {fileID: 5897707115489580135}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: AttatchPanArriba
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -526,7 +526,7 @@ GameObject:
   - component: {fileID: 5897707115562987389}
   - component: {fileID: 5897707115562987388}
   - component: {fileID: 5897707115562987387}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MeshBurger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -624,7 +624,7 @@ GameObject:
   - component: {fileID: 5897707115974475799}
   - component: {fileID: 5897707115974475801}
   - component: {fileID: 5897707115974475802}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: AttatchRodajaTomate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -764,7 +764,7 @@ GameObject:
   - component: {fileID: 2752313955758367905}
   - component: {fileID: 2752313955758367935}
   - component: {fileID: 2752313955758367906}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: AttatchCarneCocinada
   m_TagString: Untagged
   m_Icon: {fileID: 0}

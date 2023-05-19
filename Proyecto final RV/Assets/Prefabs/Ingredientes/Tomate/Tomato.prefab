@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 582065283225856607}
   - component: {fileID: 582065283225856604}
   - component: {fileID: 6565465686138008440}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TomatoSlice (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109,7 +109,7 @@ GameObject:
   - component: {fileID: 582065283621196402}
   - component: {fileID: 582065283621196403}
   - component: {fileID: 5991351855789051347}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TomatoSlice (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -206,7 +206,7 @@ GameObject:
   - component: {fileID: 582065284271554347}
   - component: {fileID: 582065284271554344}
   - component: {fileID: 4379158975322955385}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TomatoSlice (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -303,7 +303,7 @@ GameObject:
   - component: {fileID: 582065284597746857}
   - component: {fileID: 582065284597746862}
   - component: {fileID: 5381828021125374332}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TomatoSlice (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -400,7 +400,7 @@ GameObject:
   - component: {fileID: 582065284669846421}
   - component: {fileID: 582065284669846442}
   - component: {fileID: 8617404181893006784}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TomatoSlice (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -497,7 +497,7 @@ GameObject:
   - component: {fileID: 582065284922683659}
   - component: {fileID: 582065284922683656}
   - component: {fileID: 7095491878546486437}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TomatoSlice (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -594,7 +594,7 @@ GameObject:
   - component: {fileID: 582065285178962945}
   - component: {fileID: 582065285178962950}
   - component: {fileID: 582065285178962951}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tomato
   m_TagString: Cuttable
   m_Icon: {fileID: 0}
