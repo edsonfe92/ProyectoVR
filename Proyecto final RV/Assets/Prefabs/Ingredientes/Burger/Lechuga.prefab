@@ -533,7 +533,7 @@ GameObject:
   - component: {fileID: 4969334342411048906}
   - component: {fileID: 4969334342411048911}
   - component: {fileID: 4969334342411048904}
-  - component: {fileID: 4969334342411048905}
+  - component: {fileID: 4408836392267308364}
   m_Layer: 0
   m_Name: MeshLechuga
   m_TagString: Untagged
@@ -606,8 +606,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &4969334342411048905
-MeshCollider:
+--- !u!65 &4408836392267308364
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -616,7 +616,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3330143916502091747, guid: 57b54a3e24596104eb8a4a316690012f, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.10125189, y: 0.097037174, z: 0.012947783}
+  m_Center: {x: 0.0011897981, y: 0.0019241835, z: 0.004117523}

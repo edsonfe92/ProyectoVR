@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.UI;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -14,7 +15,11 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private GameObject platoEnviado;
     [SerializeField] private List<Dish> pedidosPosibles;
-    [SerializeField] private Dish pedidoActual;    
+    [SerializeField] private Dish pedidoActual;
+
+    [SerializeField] private TMP_Text puntuacionText;
+    [SerializeField] private TMP_Text tiempoText;
+
 
     public float tiempoRestante = 10.0f;
 
@@ -36,18 +41,16 @@ public class GameManager : MonoBehaviour
         {
             yield return new WaitForSeconds(1);
             tiempoRestante--;
+            ActualizarTiempoUI();
         }
 
         pedidoActual = pedidosPosibles[Random.Range(0, 3)];
         ActualizarPedidoRender();
-        tiempoRestante = 60.0f;
+        tiempoRestante = 100.0f;
         StartCoroutine(CuentaAtras());
     }
 
-    public void ActualizarPedidoRender() 
-    {
-        pedidoRenderer.material = materialesDiccionario[pedidoActual.name];
-    }
+    
     public void ComprobarPedido()
     {        
         platoEnviado = GetObjectInSocket(GetObjectInSocket(socketPedido).GetComponent<XRSocketInteractor>());        
@@ -55,10 +58,22 @@ public class GameManager : MonoBehaviour
         if (CompararPedido(platoEnviado, pedidoActual))
         {
             puntuacion += 1;
+            ActualizarPuntuacíónUI();
         }
 
     }
-
+    public void ActualizarPuntuacíónUI() 
+    {
+        puntuacionText.text = puntuacion.ToString();
+    }
+    public void ActualizarPedidoRender()
+    {
+        pedidoRenderer.material = materialesDiccionario[pedidoActual.name];
+    }
+    public void ActualizarTiempoUI() 
+    {
+        tiempoText.text = tiempoRestante.ToString();
+    }
     public bool CompararPedido(GameObject plato, Dish pedidoActual)
     {
         var listaIngredientesPlato = plato.GetComponent<ListaIngredientes>().listaIngredientes;

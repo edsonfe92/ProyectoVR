@@ -196,7 +196,7 @@ GameObject:
   - component: {fileID: 4992680010903207240}
   - component: {fileID: 4992680010903207247}
   - component: {fileID: 4992680010903207246}
-  - component: {fileID: 4992680010903207241}
+  - component: {fileID: 540932863129752365}
   m_Layer: 0
   m_Name: MeshTomate
   m_TagString: Untagged
@@ -269,8 +269,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &4992680010903207241
-MeshCollider:
+--- !u!65 &540932863129752365
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -279,7 +279,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5532988877341466481, guid: 57b54a3e24596104eb8a4a316690012f, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.08000849, y: 0.0800085, z: 0.0062973583}
+  m_Center: {x: -0.0006335676, y: 0.00057125656, z: 0.00053093623}
